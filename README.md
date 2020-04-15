@@ -14,6 +14,7 @@ Agora que você já está com o template clonado, e pronto para continuar, você
   "type": "income"
 }
 - **`GET /transactions`**: Essa rota deve retornar uma listagem com todas as transações que você cadastrou até agora, junto com o valor de soma de entradas, retiradas e total de crédito. Essa rota deve retornar um objeto com o formato a seguir:
+...
 {
   "transactions": [
     {
@@ -47,3 +48,4 @@ Agora que você já está com o template clonado, e pronto para continuar, você
     "total": 800
   }
 }
+...
